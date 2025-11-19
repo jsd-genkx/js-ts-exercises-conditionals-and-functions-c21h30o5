@@ -6,4 +6,14 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 15;
+const num = [15, 9, 25];
+
+for (let i=0; i<num.length; i++) {
+        if (num[i] % 3 === 0 && num[i] % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (num[i] % 3 === 0) {
+        console.log("Fizz");
+    } else if (num[i] % 5 === 0) {
+        console.log("Buzz");
+    };
+}
