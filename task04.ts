@@ -9,7 +9,7 @@
 const num = [15, 9, 25];
 
 for (let i=0; i<num.length; i++) {
-        if (num[i] % 3 === 0 && num[i] % 5 === 0) {
+    if (num[i] % 3 === 0 && num[i] % 5 === 0) {
         console.log("FizzBuzz");
     } else if (num[i] % 3 === 0) {
         console.log("Fizz");
